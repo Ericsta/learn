@@ -33,3 +33,6 @@ Git鼓励大量使用分支：
 git stash list 列出保存的现场信息
 再git stash pop，回到工作现场。  git stash apply 和 git stash drop 组合使用给apply 只
 提取处理 不处理对内 drop 掉队内信息
+
+
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
