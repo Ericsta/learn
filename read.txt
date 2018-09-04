@@ -1,2 +1,10 @@
 git is bad
 vrk
+Updates were rejected because the tip of your current branch is behind
+2016年05月11日 09:29:37 阅读数：31685更多
+个人分类： git
+有如下几种解决方法：
+
+1.使用强制push的方法：
+
+$ git push -u origin master -f 
