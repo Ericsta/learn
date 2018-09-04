@@ -8,3 +8,5 @@ Updates were rejected because the tip of your current branch is behind
 1.使用强制push的方法：
 
 $ git push -u origin master -f 
+ 
+test1 branch
