@@ -1,0 +1,60 @@
+r'  ' 和''' ''' 中  
+r' ' 被直接覆盖
+
+list 的-1最后一个数据
+append最后  inesrt加入指定位置  pop空参数最后一个，否则指定参数
+tuple 和list 
+list【】
+tuple 初始化后不能修改  （）
+创建tuple时 使用list 作为其中一元素可变
+elif =else if
+
+dict 的key 不可变即不能放入变量  只能放 字符 数字 只能完成对value的修改 key相当于hash的key
+ 
+set 同样的数据只保存一个   可通过add（key） remove  来修改 
+set 无重复集合
+
+
+函数赋值给变量   alias 
+def  定义函数 没类型  只有接受位
+
+函数返回多值  使用一个tuple
+
+函数设置默认参数时 变化越小的放在越后面
+
+
+* 将list 中所有参数作为可变参数加进去  
+用*可以定义函数的可变变量
+可变参数在函数内自动编成tuple
+
+
+位置参数   关键词参数  		命名关键词参数
+按位置	可以不受限制的输入		确定可输入的关键词
+
+
+*号前是位置参数 之后是命名关键词参数
+
+对于任意函数，都可以通过类似func(*args, **kw)的形式调用它，无论它的参数是如何定义的
+*args 参数名为args的tuple  **kw 变量名自定的tuple  可用dict 输入
+
+
+切片  L[0:9] 第一个到第十个  [::2} 两个两个为一组 取前一个
+
+dict {}
+list[]
+tulpe()
+
+for 循环前面可以写 创建方式
+
+ a, b = b, a + b
+用for循环调用generator时，发现拿不到generator的return语句的返回值
+
+
+凡是可作用于for循环的对象都是Iterable类型；
+
+凡是可作用于next()函数的对象都是Iterator类型，它们表示一个惰性计算的序列；
+
+集合数据类型如list、dict、str等是Iterable但不是Iterator，不过可以通过iter()函数获得一个Iterator对象。
+
+
+map reduce
